@@ -1,0 +1,130 @@
+body, html {
+    height: 100%;
+    color:whitesmoke;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("img/background.jpg");
+
+    /* Set a specific height */
+    min-height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.split {
+  height: 100%;
+  min-height: 600px;
+}
+
+/* Control the left side */
+.left {
+  height: 100%;
+  float: left;
+  width: 50%;
+  color:white; 
+  font-size: 40px; 
+  font-family: 'Dancing Script', cursive;
+}
+
+/* Control the right side */
+.right {
+  height:100%;
+  float: right;
+  width: 50%;
+}
+
+.start{
+    height:100%;
+}
+
+.icons {
+    position: relative;
+    top: 40%;
+    left: 26%;
+    font-size: 48px;
+}
+
+.fa {
+    padding: 15px;
+    color:white;
+}
+
+.title {
+    position:relative; 
+    top: 25%; 
+    left: 20%; 
+    font-size:70px; 
+    font-family: 'Dancing Script', cursive;
+}
+
+.headers {
+  text-align: center;
+  font-size: 40px; 
+  font-family: 'Dancing Script', cursive;
+  padding: 15px;
+}
+
+.text {
+    font-size: 15px; 
+    font-family:'Josefin Sans';
+    margin: 50px 50px 50px 50px;
+}
+
+/*.container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}*/
+.page {
+  float: left;
+  height: 100vh;
+  width: 97.5vw;
+}
+
+
+.dropbtn {
+    background-color: whitesmoke;
+    color: #AECFA0;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.collapsible {
+  background-color: #eee;
+  color: #8CAF79;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #eee;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #8CAF79;
+}
+
+td {
+  width: 33.3% ;
+}
